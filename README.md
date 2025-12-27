@@ -1,7 +1,6 @@
 # Fraud Detection for E-commerce and Bank Transactions
 ## Project Overview
-This project focuses on building robust machine learning models to detect fraudulent transactions in both **e-commerce** and **banking (credit card)** datasets. The work was completed as part of the **10 Academy Artificial Intelligence Mastery – Week 5 & 6 Challenge**.
-Fraud detection presents unique challenges, particularly **severe class imbalance**, high-cardinality identifiers, and the need to balance **security** with **customer experience**. This project addresses these challenges using careful feature engineering, appropriate evaluation metrics, and model explainability techniques.
+This project focuses on building robust machine learning models to detect fraudulent transactions in both **e-commerce** and **banking (credit card)** datasets. Fraud detection presents unique challenges, particularly **severe class imbalance**, high-cardinality identifiers, and the need to balance **security** with **customer experience**. This project addresses these challenges using careful feature engineering, appropriate evaluation metrics, and model explainability techniques.
 ---
 ## Business Problem
 Adey Innovations Inc., a fintech company specializing in e-commerce and banking solutions, aims to improve fraud detection accuracy while minimizing false positives.
@@ -153,16 +152,3 @@ Given the imbalanced nature of fraud data:
 
 - **Confusion Matrix** analyzed for false positives and false negatives
 
----
-
-## Business Recommendations
-
-1. Transactions occurring shortly after signup should undergo additional verification.
-
-2. High-frequency transactions within short time windows should trigger fraud alerts.
-
-3. Country-level fraud risk scoring can enhance real-time decision-making.
-
----
-
- 
